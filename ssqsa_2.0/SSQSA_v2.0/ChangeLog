@@ -1,0 +1,14 @@
+Gordana Rakic 21.1.2014.
+DONE:
+Integration of SNEIPLE ackages into SSQSA environment
+* extract of ecst and gdn packages to SSQSA project - to be used by other users
+* extract of ISTOK code to eCSTGenerator - duplicate code removal
+
+
+
+TO DO:
+
+* package XMLeCST> prilagoditi uvucenim paketima za rad sa eCST
+* package GDN> dodati Pannipin deo koda za exprotovanje
+* package ecst.visualise napraviti integraciju sa DOT projektom (PL C!!!) 
+* package dmetric > move to SMIILE

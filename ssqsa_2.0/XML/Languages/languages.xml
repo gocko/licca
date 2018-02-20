@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+	<language name="java" lexer="Languages.java.SSQSA_JavaLexer" parser="Languages.java.SSQSA_JavaParser"
+		startRule="startNonterminal" returnClass="startNonterminal_return" caseSensitive="true">
+		<extension>java</extension>
+	</language>
+
+	<language name="modula2" lexer="Languages.m2.SSQSA_M2Lexer"
+		parser="Languages.m2.SSQSA_M2Parser" startRule="startNonterminal"
+		returnClass="startNonterminal_return" caseSensitive="true">
+		<extension>mod</extension>
+	</language>
+	
+	<language name="CSharp" startRule="compilation_unit"
+		lexer="Languages.CSharp.CSharpLexer"
+		parser="Languages.CSharp.CSharpParser"
+		returnClass="compilation_unit_return" caseSensitive="true">
+		<extension>cs</extension>
+	</language>
+	
+	<language name="Delphi" lexer="Languages.delphi.SSQSA_DelphiLexer"
+		parser="Languages.delphi.SSQSA_DelphiParser"
+		startRule="startNonterminal" returnClass="startNonterminal_return"
+		caseSensitive="false">
+		<extension>pas</extension>
+	</language>
+	<language name="C" 
+		lexer="Languages.c.CLangLexer"
+		parser="Languages.c.CLangParser"
+		startRule="translation_unit"
+		returnClass="translation_unit_return" 
+		caseSensitive="true">
+		<extension>c</extension>
+	</language>
+	
+	<language name="Python" 
+		lexer="Languages.python.PythonLexer"
+		parser="Languages.python.PythonParser"
+		startRule="file_input"
+		returnClass="file_input_return" 
+		caseSensitive="true">
+		<extension>py</extension>
+	</language>
+	
+	<language name="WSL" 
+		lexer="Languages.wsl.WSLLexer"
+		parser="Languages.wsl.WSLParser"
+		startRule="program" 
+		returnClass="program_return"
+		caseSensitive="true">
+		<extension>wsl</extension>
+	</language>
+	
+	<language name="JavaScript" 
+        lexer="Languages.javaScript.JavaScriptLexer"
+        parser="Languages.javaScript.JavaScriptParser"
+        startRule="program"
+        returnClass="program_return" 
+        caseSensitive="true"> 
+        <extension>js</extension> 
+    </language> 
+	
+	<language name="PHP" 
+        lexer="Languages.php.PhpLexer"
+        parser="Languages.php.PhpParser"
+        startRule="prog"
+        returnClass="prog_return" 
+        caseSensitive="true"> 
+        <extension>php</extension> 
+    </language> 
+	<language name="Scheme"
+		lexer="Languages.scheme.SchemeLexer"
+		parser="Languages.scheme.SchemeParser"
+		startRule="compilation_unit"
+		returnClass="compilation_unit_return"
+		caseSensitive="true">
+		<extension>scm</extension>
+	</language>
+</languages>
